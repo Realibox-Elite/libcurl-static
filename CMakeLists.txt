@@ -1,0 +1,5 @@
+if(TARGET_PLATFORM_WINDOWS)
+	add_subdirectory(windows)
+elseif(TARGET_PLATFORM_LINUX)
+	add_subdirectory(linux)
+endif()
